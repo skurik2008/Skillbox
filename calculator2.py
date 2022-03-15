@@ -1,11 +1,11 @@
-﻿action = input('Выберите операцию: ')
+﻿action = input('Выберите арифметическое действие: ')
 while action != '+' and action != '-' and action != '*' and action != '/':
   print('Ошибка: такой операции не существует. Попробуйте еще раз.')
-  action = input('Выберите операцию: ')
-oper = int(input('Сколько операндов? '))
+  action = input('Выберите арифметическое действие: ')
+oper = int(input('Сколько чисел? '))
 num_print = ''
 for i in range(1, oper + 1):
-  num = int(input(f"Введите операнд {i}: "))
+  num = int(input(f"Введите число {i}: "))
   if i == 1:
     num_res = num
     num_print += str(num)
@@ -23,3 +23,4 @@ for i in range(1, oper + 1):
       num_res /= num
       num_print += action + str(num)
 print(num_print, '=', num_res)
+print('Очень хороший калькулятор!')
