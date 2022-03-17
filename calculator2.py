@@ -26,3 +26,4 @@ print(num_print, '=', num_res)
 ptint('НЕТ ВОЙНЕ! МИР В УКРАИНЕ!')
 print('Жыве Беларусь!')
 
+

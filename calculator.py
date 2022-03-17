@@ -23,4 +23,5 @@ for i in range(1, oper + 1):
       num_res /= num
       num_print += action + str(num)
 print(num_print, '=', num_res)
+print('Жыве Беларусь!')
 
