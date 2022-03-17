@@ -24,5 +24,4 @@ for i in range(1, oper + 1):
       num_print += action + str(num)
 print(num_print, '=', num_res)
 ptint('НЕТ ВОЙНЕ! МИР В УКРАИНЕ! ЖЫВЕ БЕЛАРУСЬ!')
-print('УРА!')
 
